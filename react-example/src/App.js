@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 
-// import "./page.css"; 
+// import "./page.css";
 import "./page.scss";
 
 function App() {
