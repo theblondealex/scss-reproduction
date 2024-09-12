@@ -1,6 +1,6 @@
 ## This is a reproduction of an issue I had with SCSS and Next.js.
 
-> For an unknown reason with scss when using a local svg file with compiled sprites as background image the svg is not rendered correctly.
+> For an unknown reason with scss when using a local svg file with compiled sprites as background the svg is not rendered correctly.
 
 # How to reproduce
 
