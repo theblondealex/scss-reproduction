@@ -1,6 +1,11 @@
 import Image from "next/image";
 import styles from "./page.module.css";
 
+//VIEW THE ISSUE HERE
+//to see the issue with scss and next.js comment out the import of css file and uncomment the import of scss file, one works one doesnt
+import "./page.scss";
+// import "./page.css";
+
 export default function Home() {
   return (
     <div className={styles.page}>
@@ -14,10 +19,7 @@ export default function Home() {
           priority
         />
         <ol>
-          <li>
-            Get started by editing <code>src/app/page.tsx</code>.
-          </li>
-          <li>Save and see your changes instantly.</li>
+          <div className={"sprites"} />
         </ol>
 
         <div className={styles.ctas}>

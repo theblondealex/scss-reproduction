@@ -1,0 +1,10 @@
+{
+  "dest": "./src/app/svgs/output",
+  "log": "info",
+  "mode": {
+    "stack": {
+      "dest": "./",
+      "sprite": "all-svgs-sprite.svg"
+    }
+  }
+}
